@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">YourLogo</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Empowering Your Business</h1>
+            <p>Innovative solutions tailored for your success.</p>
+            <a href="#contact" class="cta">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We deliver exceptional services with a focus on quality and client satisfaction.</p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="image1.jpg" alt="Description 1">
+            <img src="image2.jpg" alt="Description 2">
+            <img src="image3.jpg" alt="Description 3">
+        </div>
+    </section>
+    <section id="location">
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450"></iframe>
+    </section>
+
+    <section id="services" class="services-grid">
+        <div class="service">
+            <h3>Consulting</h3>
+            <p>Expert advice for your business needs.</p>
+        </div>
+        <div class="service">
+            <h3>Development</h3>
+            <p>Custom software solutions to drive growth.</p>
+        </div>
+        <div class="service">
+            <h3>Support</h3>
+            <p>24/7 support to ensure your success.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="address">Address:</label>
+            <textarea id="address" name="Address" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>©thakur</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
